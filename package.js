@@ -1,4 +1,7 @@
 Package.describe({
+  name: "richsilv:leaflet-awesome-markers",
+  version: "1.0.0",
+  git: "https://github.com/richsilv/meteor-leaflet-awesome-markers",
   summary: "Leaflet Awesome Markers Plugin for Meteor"
 });
 
