@@ -6,8 +6,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.addAssets('lib/leaflet.awesome-markers.js', 'client');
-  api.addAssets('styles/leaflet.awesome-markers.css', 'client');
+  api.addFiles('lib/leaflet.awesome-markers.js', 'client');
+  api.addFiles('styles/leaflet.awesome-markers.css', 'client');
   api.addAssets('images/markers-matte.png', 'client');
   api.addAssets('images/markers-matte@2x.png', 'client');
   api.addAssets('images/markers-plain.png', 'client');
